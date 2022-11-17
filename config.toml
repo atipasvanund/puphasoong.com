@@ -1,0 +1,165 @@
+#-------------------------------
+# General Site Settings
+baseURL = "http://puphasoong.com/"
+languageCode = "th"
+theme = "menca"
+title = "วัดป่าภูผาสูง"
+googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
+paginate = 9
+
+
+#-------------------------------
+# Main Menu
+[menu]
+  [[menu.main]]
+    identifier = "หน้าแรก"
+    name = "หน้าแรก"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "เกี่ยวกับ"
+    name = "เกี่ยวกับ"
+    url = "/เกี่ยวกับ"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "ติดต่อ"
+    name = "ติดต่อ"
+    url = "/ติดต่อ"
+    weight = 3
+
+
+[params]
+  logo = "" # You can add own logo. For example "/images/logo.png".
+  description = "สำนักปฏิบัติธรรมกรรมฐานสาย ท่านพระอาจารย์มั่น ภูริทัตโต มีเนื้อที่ดูแลจำนวน 2,800 ไร่ ในเขต สูงเนิน สีคิ้ว ปากช่อง และ ปักธงชัย มี พระมหาธีรนาถ อคฺคธีโร ซึ่งเป็นสัทธิวิหาริกของหลวงพ่อพุธ ฐานิโย เป็นเจ้าอาวาส ตั้งแต่ พ.ศ. 2537"
+
+  #-------------------------------
+  # Author Settings
+  [params.author]
+    author__name = "วัดป่าภูผาสูง"
+    author__bio = "สำนักปฏิบัติธรรมกรรมฐานสาย ท่านพระอาจารย์มั่น ภูริทัตโต มีเนื้อที่ดูแลจำนวน 2,800 ไร่ ในเขต สูงเนิน สีคิ้ว ปากช่อง และ ปักธงชัย มี พระมหาธีรนาถ อคฺคธีโร ซึ่งเป็นสัทธิวิหาริกของหลวงพ่อพุธ ฐานิโย เป็นเจ้าอาวาส ตั้งแต่ พ.ศ. 2537"
+    author__avatar = "/images/avatar.jpg"
+
+
+  [[params.social]]
+    icon = "ion-logo-facebook"
+    name = "Facebook"
+    link = "https://facebook.com/pupasoong"
+
+  [[params.social]]
+    icon = "ion-logo-youtube"
+    name = "Youtube"
+    link = "https://youtube.com/channel/UCz96Fsyi1N159Jorw9ixc8Q"
+
+  # Example of adding a new link to the author section and footer:
+  # [[params.social]]
+  #   icon = "ion-logo-vimeo"
+  #   name = "Vimeo"
+  #   link = "https://vimeo.com"
+
+  # Other icons can be found at https://ionicons.com/v4/
+
+
+  #-------------------------------
+  # Hero Settings
+  [params.hero]
+    hero__title = "วัดป่าภูผาสูง"
+    hero__description = "สำนักปฏิบัติธรรมกรรมฐานสาย ท่านพระอาจารย์มั่น ภูริทัตโต มีเนื้อที่ดูแลจำนวน 2,800 ไร่ ในเขต สูงเนิน สีคิ้ว ปากช่อง และ ปักธงชัย มี พระมหาธีรนาถ อคฺคธีโร ซึ่งเป็นสัทธิวิหาริกของหลวงพ่อพุธ ฐานิโย เป็นเจ้าอาวาส ตั้งแต่ พ.ศ. 2537"
+    hero__image = "/images/hero.jpg"
+
+  # Newsletter
+  #[params.mailchimp]
+  #  mailchimp__identifier = "frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3" # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+  #  mailchimp__input__text = "Subscribe here"
+  #  mailchimp__button__text = "Get a new tip"
+
+
+  #-------------------------------
+  # Gallery Footer Section
+  [params.gallery]
+    gallery__title = "แกลเลอรี่"
+    gallery__columns = 3 # You can change the number of gallery columns
+
+  [[params.gallery_image]]
+    image_alt = "พระธาตุจอมผา"
+    image_url = "/images/พระธาตุจอมผา.jpg"
+
+  [[params.gallery_image]]
+    image_alt = "พระพุทธรูปขาว"
+    image_url = "/images/พระพุทธรูปขาว.jpg"
+
+  [[params.gallery_image]]
+    image_alt = "พระประธาน"
+    image_url = "/images/พระประธาน.jpg"
+
+  [[params.gallery_image]]
+    image_alt = "ภาพถ่ายจากโดรน"
+    image_url = "/images/ภาพถ่ายจากโดรน.jpg"
+
+  [[params.gallery_image]]
+    image_alt = "ทะเลหมอก"
+    image_url = "/images/ทะเลหมอก.jpg"
+
+  [[params.gallery_image]]
+    image_alt = "ภาพถ่ายจากโดรนมีหมอก"
+    image_url = "/images/ภาพถ่ายจากโดรนมีหมอก.jpg"
+
+  #-------------------------------
+  # Contact Settings
+  [params.contact]
+    email = "your@email.com" # Add your email for contant form
+
+    # NOTE
+    # Menca comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
+
+  #-------------------------------
+  # Comment Section (Disqus)
+  [params.disqus]
+    disqusShortname = "demo-menca" # Add your shortname for Disqus Comment. For example demo-menca
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  noClasses = false
+
+[deployment]
+
+[[deployment.targets]]
+name = "S3"
+
+# S3; see https://gocloud.dev/howto/blob/#s3
+# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+URL = "s3://puphasoong.com?region=ap-southeast-1"
+
+[[deployment.matchers]]
+# Cache static assets for 1 year.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+# Set custom content type for /sitemap.xml
+pattern = "^sitemap\\.xml$"
+contentType = "application/xml"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
